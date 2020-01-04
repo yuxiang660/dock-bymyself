@@ -54,5 +54,5 @@
 # 第2章 基础技术
 ## 2.1 Linux Namespace 介绍
 * Process Namespace
-    - [clone-new-pid](./code/clone/new-pid.c)
+    - [clone-new-pid](./code/process-namespace/new-pid.c)
     - Clone一个新的PID和fork一个新进程是一样的。对于新的子进程，它的PID是1，它的父进程PID是0。对于当前进程，clone返回的PID值是当前进程PID加1。
