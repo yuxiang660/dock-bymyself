@@ -10,6 +10,7 @@ static char child_stack[1048576];
 static int child_fn() {
     printf("Parent PID in new process: %ld\n", (long)getppid());
     printf("PID in new process: %ld\n", (long)getpid());
+    return 0;
 }
 
 int main() {
